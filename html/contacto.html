@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "../css/style.css">
+    <!--Iconos - Font Awesome-->
+    <link href="../css/fontawesome.css" rel="stylesheet">   
+    <link href="../css/solid.css" rel="stylesheet">
+    <link href="../css/brands.css" rel="stylesheet">
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class = "sidebar">
+        <div class = "logo-details">
+            <div class = "logo_name">Menú</div>
+            <i class="fa-sharp fa-solid fa-bars" id = "btn"></i>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href = "../index.html" title = "Home">
+                        <i class="fa-sharp fa-solid fa-house"></i>
+                        <span class = "links_name">Home</span>
+                    </a>
+                    <span class = "tooltip">Home</span>
+                </li>
+                <li>
+                    <a href = "perfil.html" title = "Perfil">
+                        <i class="fa-sharp fa-solid fa-user"></i>
+                        <span class = "links_name">Perfil</span>
+                    </a>
+                    <span class = "tooltip">Perfil</span>
+                </li>
+                <li>
+                    <a href = "proyectos.html" title = "Proyectos">
+                        <i class="fa-sharp fa-solid fa-folder"></i>
+                        <span class = "links_name">Proyectos</span>
+                    </a>
+                    <span class = "tooltip">Proyectos</span>
+                </li>
+                <li>
+                    <a href = "contacto.html" title = "Contacto">
+                        <i class="fa-sharp fa-solid fa-address-book"></i>
+                        <span class = "links_name">Contacto</span>
+                    </a>
+                    <span class = "tooltip">Contacto</span>
+                </li>
+            </ul>
+        </nav>
+
+        <div class = "profile">
+            <div class = "profile_details">
+                <div class = "name_job">
+                    <div class = "name">Isabella Muroni</div>
+                    <div class = "job">Programadora</div>
+                </div>
+            </div>
+            <a href = "https://www.linkedin.com/in/isabellanievamuroni/" title = "Linkedin">
+                <i class="fa-brands fa-linkedin" id="linkedin"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class = "content">
+        <section class = "text">
+            <h2 id = "animate-text">Contacto</h2>
+
+            <p>
+                <ul class = "listado">
+                    <li><i class="fa-solid fa-envelope"></i>lisa.hudson@example.com</li>
+                    <li><i class="fa-solid fa-phone"></i>(306) 665-6825</li>
+                    
+                </ul>
+            </p>
+
+            <div class = "btn-click">
+                <button class = "btn-saludo" onclick = "saludoFinal()">
+                    Click Me!
+                </button>
+                <p id = "saludoFinal"></p>
+            </div>
+
+        </section>
+        
+    </main>
+    <script src="../js/script.js"></script>
+    <script src = "../js/titulos.js"></script>
+    <script src = "../js/saludo.js"></script>
+</body>
+</html>
